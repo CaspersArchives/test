@@ -1,0 +1,186 @@
+body{
+	 margin:0;
+	 font-family: "Lora", serif;
+}
+
+img{
+	width: 100%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+header{
+	position: relative;
+	background-color: #695F5D;		
+}
+
+header img{
+
+	width:300px;
+	margin: 30px 0 0 30px;
+	margin-bottom: 30px;	
+}
+
+nav{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+nav ul li{
+	float: left;
+	margin-left: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+div.contact-title{
+	background-color: #DDD9D8;
+	padding: 30px;
+}
+	
+.contact-title p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	margin: 0px;
+}
+
+main{
+	width: 960px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+}
+
+main p{
+	margin:0px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+.content{
+	width: 600px;
+	float: left;
+
+}
+
+.address{
+	width: 285px;
+	float: right;
+}
+
+
+
+#footer-img{
+	width:300px;
+	margin: 40px 0 10px 0px;
+}
+
+
+footer{
+	background-color: #8CEAF0;
+}
+
+#main{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.p1{
+	margin: 0px;
+	font-family: "Lora", serif;
+	font-size: 14px;
+	color: #1A737A;
+}
+
+footer p{
+	margin:0px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #1A737A;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 300px auto;
+  padding: 10px;
+}	
+
+.grid-sub{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+}
+
+.grid-sub{
+	margin-top: 73px;
+}
+
+.grid-sub span{
+	color: black;
+	font-weight: 500;
+}
+
+#footer-map{
+	width: 300px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+#footer-map:first-child{
+	margin-left: 0px;
+}
+
+div.grid-sub{
+	top: 20px;
+	right: 30px;
+}
+
+div ul {
+	padding-left: 0px;
+	text-align: center;
+}
+
+div ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+div ul li{
+	float: left;
+	margin-left:65px;
+	margin-top: 13px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	list-style: none;
+}
+
+.grid-list li:first-child{
+	margin-left: 0px;
+}
+
+.sub-footer{
+	background-color: #63A2A9;
+}
+
+table{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+tr td:last-child{
+	float: right;
+}
